@@ -6,7 +6,7 @@
     show-checkbox
     node-key="catId"
     :default-expanded-keys="defaultExpandedKeys"
-    draggable="true"
+    :draggable="true"
     :allow-drop="allowDrop">
     <span class="custom-tree-node" slot-scope="{ node, data }">
       <span>{{ node.label }}</span>
